@@ -1,5 +1,5 @@
-import {printCartItems} from '/printCartItems';
-import {updateCartCount} from '/updateCartCount';
+import {printCartItems} from '/js/printCartItems';
+import {updateCartCount} from '/js/updateCartCount';
 
 export const updateCartItem = (productId, change) => {
   const listItems = JSON.parse(localStorage.getItem('cart')) || [];
