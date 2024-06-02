@@ -1,4 +1,4 @@
-import {calculateTotalPrice} from '/calculateTotalPrice';
+import {calculateTotalPrice} from '/js/calculateTotalPrice';
 import {API_URL} from '../script';
 
 const modalList = document.querySelector('.modal__list');

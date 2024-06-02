@@ -1,5 +1,5 @@
-import {fetchCartItem} from '/fetchCartItem';
-import {printCartItems} from '/printCartItems';
+import {fetchCartItem} from '/js/fetchCartItem';
+import {printCartItems} from '/js/printCartItems';
 
 export const renderCartItems = async (modalList) => {
   const listItems = JSON.parse(localStorage.getItem('cart')) || [];

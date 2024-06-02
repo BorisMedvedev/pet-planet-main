@@ -1,4 +1,4 @@
-import {renderProducts} from '/renderProducts';
+import {renderProducts} from '/js/renderProducts';
 
 import {API_URL} from '../script';
 

@@ -7,12 +7,12 @@ export default defineConfig({
   publicDir: '../public',
   build: {
     outDir: '../dist',
-    // rollupOptions: {
-    //   input: {
-    //     main: resolve(__dirname, './src/index.html'),
-    //     store: resolve(__dirname, './src/store.html'),
-    //   },
-    // },
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, './src/index.html'),
+        store: resolve(__dirname, './src/store.html'),
+      },
+    },
   },
 
   plugins: [

@@ -1,4 +1,4 @@
-import {updateCartCount} from '/updateCartCount.js';
+import {updateCartCount} from '/js/updateCartCount.js';
 
 export const addTooCart = (productId) => {
   const cartItems = JSON.parse(localStorage.getItem('cart')) || [];

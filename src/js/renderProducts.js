@@ -1,4 +1,4 @@
-import {createProductCard} from '/createProductCard.js';
+import {createProductCard} from '/js/createProductCard.js';
 
 const productsList = document.getElementById('app');
 
