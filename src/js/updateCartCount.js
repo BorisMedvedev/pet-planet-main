@@ -5,4 +5,3 @@ export const updateCartCount = () => {
   btnCartNum.textContent = cartItems.reduce((sum, obj) => sum + obj.count, 0);
 };
 
-updateCartCount();

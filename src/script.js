@@ -1,3 +1,4 @@
+import {updateCartCount} from './js/updateCartCount';
 import {updateCartItem} from '/js/updateCartItem';
 export const API_URL = 'https://faint-sweet-pin.glitch.me';
 
@@ -50,6 +51,8 @@ const init = async () => {
       updateCartItem(productId, -1);
     }
   });
+
+  updateCartCount();
 };
 
 init();
