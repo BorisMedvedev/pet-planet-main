@@ -1,5 +1,6 @@
 import {updateCartCount} from './js/updateCartCount';
 import {updateCartItem} from '/js/updateCartItem';
+import {submitOrder} from '/js/submitOrder';
 export const API_URL = 'https://faint-sweet-pin.glitch.me';
 
 const init = async () => {
@@ -9,6 +10,7 @@ const init = async () => {
   const modalOverlay = document.querySelector('.modal-overlay');
   const modalClose = document.querySelector('.modal__close');
   const modalList = document.querySelector('.modal__list');
+  const modalForm = document.querySelector('.modal__form');
 
 
   const {selectionActiveButton} =
@@ -53,6 +55,7 @@ const init = async () => {
   });
 
   updateCartCount();
+  modalForm.addEventListener('submit', submitOrder);
 };
 
 init();
