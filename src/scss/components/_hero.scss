@@ -109,6 +109,7 @@
 
 .products {
   padding: 100px 0;
+  position: relative;
 }
 
 .products__list {
@@ -199,7 +200,15 @@
 .products__nav-btn-cart {
   width: 50px;
   height: 50px;
-  position: relative;
+  position: fixed;
+  right: 150px;
+  z-index: 1000;
+
+  @include mobile {
+   width: 40px;
+   height: 40px;
+   right: 0;
+  }
 }
 
 .products__nav-btn-cart svg {
