@@ -130,6 +130,9 @@
   width: 100%;
   min-height: 499px;
   background-color: #fff;
+  @include mobile {
+    min-height: 380px;
+  }
 
   h3 {
     margin-bottom: 4px;
