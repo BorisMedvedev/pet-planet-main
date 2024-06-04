@@ -23,7 +23,7 @@
   @include bigscreen {
     background-image: url("/img/bg-dog-bigscreen.png"), url("/img/pattern.svg");
     background-position: left 48vw bottom 0, center;
-    background-size: 1850px, auto;
+    background-size: 1240px, auto;
   }
 
   @include laptop {
@@ -63,7 +63,7 @@
   }
 
   &__text {
-    max-width: 420px;
+    max-width: 480px;
     margin-bottom: 60px;
 
     @include laptop {
@@ -206,7 +206,7 @@
 
 .products__nav-btn-cart-num {
   position: absolute;
-  top: 69%;
+  top: 63%;
   left: 52%;
   transform: translate(-50%, -50%);
   font-weight: 700;
